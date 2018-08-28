@@ -9,8 +9,8 @@ function dwarfRollCall(dwarves) {
 function summonCaptainPlanet(planeteerCalls){
   var newArray= planeteerCalls
   for(var i=0; i<newArray.length;i++){
-    newArray[i].toUpperCase();
-    newArray[i]= newArray[i] + "!"
+     newArray[i].toUpperCase();
+      newArray[i]= newArray[i] + "!"
   }
   return newArray
 }
@@ -31,4 +31,11 @@ function findTheCheese (foods) {
     }
   }
     return "no cheese!"
+}
+
+function wordswithB(words){
+  var namesstartingwithB=""
+  for(var i=0; i<words.length; i++){
+    if (words[i].startswith"B")
+  }
 }
